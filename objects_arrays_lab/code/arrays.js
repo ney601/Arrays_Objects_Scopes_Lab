@@ -9,7 +9,7 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * The East Coast Main Line doesn't stop at Peterborough! Add London Kings Cross to the end of the array to complete the line.
  */
 stations.push("London Kings Cross");
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -18,7 +18,7 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 stations.shift();
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -28,7 +28,7 @@ console.log(stations);
  */
 
 stationCount = stations.length;
-console.log("There are " + stationCount + " stations.");
+// console.log("There are " + stationCount + " stations.");
 
 
 
@@ -38,7 +38,7 @@ console.log("There are " + stationCount + " stations.");
  */
 
 thirdStation = stations[2];
-console.log("The third station is " + thirdStation);
+// console.log("The third station is " + thirdStation);
 
 
 
@@ -47,8 +47,8 @@ console.log("The third station is " + thirdStation);
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 stations[2] = "Berwick-upon-Tweed"; // or the method below
-stations.splice(2, 1, "Berwick-upon-Twee");
-console.log(stations);
+// stations.splice(2, 1, "Berwick-upon-Twee");
+// console.log(stations);
 
 
 
@@ -57,7 +57,7 @@ console.log(stations);
  * How did Leeds get on there? Better remove it.
  */
 stations.splice(5,1);
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -66,7 +66,7 @@ console.log(stations);
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 stations.splice(4, 0, "Darlington");
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -76,7 +76,7 @@ console.log(stations);
  */
 
 stoppingAtDurham = stations.includes("Durham");
-console.log(stoppingAtDurham);
+// console.log(stoppingAtDurham);
 
 
 /**
